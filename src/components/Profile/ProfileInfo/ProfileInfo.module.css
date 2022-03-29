@@ -1,0 +1,18 @@
+.main {
+  grid-area: main;
+  width: 100%;
+  height: 100%;
+}
+.profile_status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  border: #434343 1px solid;
+}
+.avatar {
+  width: 300px;
+  border-radius: 10px 10px;
+  object-fit: cover;
+  object-position: center;
+}

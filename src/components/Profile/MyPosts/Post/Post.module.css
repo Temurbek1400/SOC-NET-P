@@ -1,0 +1,17 @@
+.item {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  border: outset red 1px;
+}
+.img {
+  width: 70px;
+  border-radius: 50%;
+}
+.like {
+  top: 0;
+  right: 0;
+  position: absolute;
+}

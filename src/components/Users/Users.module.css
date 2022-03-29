@@ -1,0 +1,77 @@
+.user {
+  width: 500px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userImg {
+  width: 50px;
+  border-radius: 50%;
+}
+.imgBtn {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  border: red 1px solid;
+  width: 430px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.status {
+  height: 100%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pageCountBlock {
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 30px;
+  color: #000;
+  border-radius: 5px;
+}
+ul.pageCountBlock>li:hover {
+  cursor: pointer;
+  background-color: #5d72be;
+}
+ul.pageCountBlock>li {
+  min-width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #4069ef;
+  border-radius: 2px;
+  margin-right: 1px;
+}
+li.userSelected {
+  transition: all 1s linear;
+  border: rgb(169, 217, 231) 3px solid;
+}
+
+
+.testBox {
+  transition: 1s linear all;
+  background-color: rgb(229, 255, 0);
+  width: 100px;
+  height: 100px;
+}
+.testBox2 {
+  transition: 1s linear all;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,19 @@
+.sidebar>div {
+  display: grid;
+  grid-template-columns: 60px 60px 60px;
+}
+.sidebar>h3 {
+  color: #fff;
+  margin-left: 5px;
+}
+.item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img {
+  border-radius: 50%;
+  width: 50px;
+}

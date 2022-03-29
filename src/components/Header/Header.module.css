@@ -1,0 +1,35 @@
+.header {
+  grid-area: header;
+  background-color: rgb(70, 70, 211);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo {
+  width: 90px;
+}
+.loginBlock h1, .loginBlock h1 a {
+  color: white;
+  text-decoration: none;
+}
+.logoutBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logout {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.logout:hover {
+  transition: all 0.3s linear;
+  transform: scale(1.2);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 3px 28px 0px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 5px 3px 28px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 3px 28px 0px rgba(255, 255, 255, 0.2);
+}
